@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+.about-section {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.skills-section {
+    background-color: #eeeeee;
+    padding: 40px 0;
+}
+
+.skills-section h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.skills-section ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skills-section ul li {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.1em;
+}
+
+
+.contact-section {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.contact-section h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-section form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-section form label {
+    font-size: 1.1em;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-section form button {
+    padding: 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-section form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .contact-section form {
+        width: 100%;
+    }
+}
+
+
